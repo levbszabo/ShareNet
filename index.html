@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<!--
+  Want to customize this website? Learn more about how HTML works:
+  https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML
+-->
+
+
+<html>
+  <head>
+    <title>ShareNet</title>
+    <link rel="stylesheet" href="dat://pauls-uikit.hashbase.io/css/all.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />   
+   <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+
+  </head>
+
+  <body>
+
+    <h1>ShareNet: Peer to Peer Geo-Sharing</h1>
+    <section class = "bordered">
+      <header>Files   </header>
+      <span> Files </span>
+      
+      <section id="info" class = "bordered"></section>
+
+      <div id="map"></div>
+
+
+      <label class="btn primary" for ="files">
+        Add files +
+        <input id ="add-file-btn" type="file" name="files" accept="photos/*" multiple/>
+
+      </label>
+
+
+      <main id="file-container">
+      </main>   
+    </section>
+    <section  id = "profile" class = "bordered">
+      <header> Profile </header>
+      
+    </section>
+
+    <section id = "users" class = "bordered">
+      <header> Users </header>
+    </section>
+     <script  src="/index.js" type="module"></script>
+
+  </body>
+
+</html>

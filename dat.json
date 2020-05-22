@@ -1,0 +1,8 @@
+{
+  "title": "NetworkPage",
+  "description": "Template for a users Network",
+  "type" :["website"],
+   "experimental": {
+    "apis": ["capturePage","datPeers"]
+  }
+}
