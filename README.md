@@ -17,7 +17,7 @@ Alternatively one can make a new page using the beakerbrowser and sync the websi
 beakerbrowser allows one to interact with the application and make a customizable copy if they
 wish. This repository serves as a collection of the ShareNet Demo source code.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 
 For Questions please email: ls5122@nyu.edu
 
